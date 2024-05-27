@@ -1,5 +1,5 @@
 --film tablosunda bulunan rental_rate sütunundaki değerlerin ortalaması nedir?
-SELECT SUM(rental_rate) FROM film;
+SELECT AVG(rental_rate) FROM film;
 
 --film tablosunda bulunan filmlerden kaç tanesi 'C' karakteri ile başlar?
 SELECT COUNT(title) FROM film
